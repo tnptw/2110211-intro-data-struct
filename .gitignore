@@ -1,0 +1,19 @@
+# Executables
+*.exe
+
+# IDE specifics
+.vscode
+.idea
+
+# CMake
+build
+.cache
+cmake-build-*/
+
+# MacOS
+.DS_Store
+
+# Personal File 
+ScreenCapture
+practice
+PersonalTests

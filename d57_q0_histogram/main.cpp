@@ -1,4 +1,4 @@
-/ d57_q0_histogram : Histogram
+// d57_q0_histogram : Histogram
 #include <iostream>
 #include <map>
 

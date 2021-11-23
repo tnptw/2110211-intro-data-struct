@@ -8,10 +8,10 @@
 template<typename KeyT, typename MappedT, typename CompareT>
 size_t CP::map_bst<KeyT, MappedT, CompareT>::process(node *n) {
     size_t count = 0;
-    if (!n->right) {
+    if (n->right != NULL) {
         count += process(n->right);
     }
-    if (!n->left) {
+    if (n->left != NULL) {
         count += process(n->left);
     }
     return 1 + count;
@@ -25,13 +25,13 @@ std::pair<KeyT, MappedT> CP::map_bst<KeyT, MappedT, CompareT>::subtree(map_bst <
     } else {
         left.clear();
         right.clear();
-        if (!mRoot->left) {
+        if (mRoot->left != NULL) {
             left.mRoot = mRoot->left;
             left.mSize = process(mRoot->left);
             mRoot->left->parent = NULL;
             mRoot->left = NULL;
         }
-        if (!mRoot->right) {
+        if (mRoot->right != NULL) {
             right.mRoot = mRoot->right;
             right.mSize = process(mRoot->right);
             mRoot->right->parent = NULL;

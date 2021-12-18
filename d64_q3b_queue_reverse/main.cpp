@@ -1,4 +1,4 @@
-// d64_q3b_queue_reverse
+// d64_q3b_queue_reverse : Queue Reverse
 #include <iostream>
 #include <string>
 #include "queue.h"

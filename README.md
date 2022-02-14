@@ -1,4 +1,4 @@
-<h1 align="center">2110211 INTRO DATA STRUC</h1>
+<h1 align="center">2110211 INTRO DATA STRUCT</h1>
 
 <p align="center">
   <img width="200" height="200" src="https://github.com/isocpp/logos/blob/master/cpp_logo.svg">
